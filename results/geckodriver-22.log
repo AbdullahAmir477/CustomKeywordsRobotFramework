@@ -1,0 +1,16 @@
+1712574887476	geckodriver	INFO	Listening on 127.0.0.1:1324
+1712574890539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofilec8fnoG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712574890822	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712574890892	Marionette	INFO	Listening on port 1344
+WebDriver BiDi listening on ws://127.0.0.1:1325
+Read port: 1344
+1712574891072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1325/devtools/browser/a82f7792-90f1-405c-b3e3-73dadaadf420
+1712574922667	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712574924339	Marionette	INFO	Stopped listening on port 1344
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/cfr-srg getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-12T15:07:15.777401" rpa="false" schemaversion="5">
+<suite id="s1" name="Bss" source="C:\Users\AbdullahAmir\PycharmProjects\pythonProject2\bss.robot">
+<test id="s1-t1" name="TC_001: Open the page" line="6">
+<kw name="Given I Open the BSS Website">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-12T15:07:16.208584" level="INFO">Opening browser 'Chrome' to base url 'https://projects.boundlesstechnologies.net/bss/'.</msg>
+<arg>${WEBSITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-12T15:07:16.208584" elapsed="13.417291"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-03-12T15:07:29.626876" elapsed="0.183226"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-12T15:07:33.813696" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-12T15:07:29.811101" elapsed="4.002595"/>
+</kw>
+<status status="PASS" start="2024-03-12T15:07:16.207562" elapsed="17.606134"/>
+</kw>
+<status status="PASS" start="2024-03-12T15:07:16.205584" elapsed="17.609141"/>
+</test>
+<status status="PASS" start="2024-03-12T15:07:15.779406" elapsed="18.039309"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Bss">Bss</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
